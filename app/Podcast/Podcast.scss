@@ -1,0 +1,86 @@
+.Podcast {
+  .title {
+    margin-bottom: 0;
+  }
+  .body2 {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #595959;
+    font-weight: 400;
+  }
+  .subtitle {
+    color: #595959;
+  }
+
+  .channel {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    a {
+      margin:  0;
+      padding: 9px 12px;
+      border-radius: 50%;
+      background-color: #eeeeee;
+
+      &:hover{
+        background: #aaaaaa;
+      }
+
+      img{
+        height: 25px;
+        width: 25px;
+      }
+    }
+  }
+  .feature {
+    margin-top: 48px;
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    justify-content: space-between;
+
+    a{
+      text-decoration: none;
+
+      &:hover{
+        background-color: #eeeeee;
+      }
+    }
+
+    .card {
+        padding: 24px;
+        border-radius: 0.5em;
+      .body2 {
+        font-size: 16px;
+        color: #e70037;
+      }
+
+      .title {
+        font-size: 22px;
+        line-height: 1.4rem;
+        color: #000000;
+        margin-top: 8px;
+      }
+
+      .date{
+        margin-top: 8px;
+      }
+    }
+  }
+  .Podcast-list{
+    margin-top: 40px;
+
+    p{
+        margin: 0;
+    }
+  }
+}
+
+.List-centralize{
+  height: calc(100vh - 540px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
